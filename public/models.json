@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content instantly with AI-powered writing tools.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": ["AI-assisted writing", "Grammar correction", "Content suggestions", "Export to PDF/Word"],
+    "icon": "https://i.ibb.co.com/SXkYS4NG/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access hundreds of pre-designed templates for web, social media, and presentations.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": ["100+ templates", "Customizable layouts", "High-resolution downloads", "Ready for print & web"],
+    "icon": "https://i.ibb.co.com/B2hFG7NT/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Access",
+    "description": "Get unlimited access to premium stock photos, videos, and graphics.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "popular",
+    "features": ["High-quality images", "HD videos", "Royalty-free content", "New assets added weekly"],
+    "icon": "https://i.ibb.co.com/xq1bGh0r/camera-8775444-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks to save time and boost productivity.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "new",
+    "features": ["Task automation", "Email scheduling", "Workflow templates", "Integration with popular apps"],
+    "icon": "https://i.ibb.co.com/jPqsRS81/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "https://i.ibb.co.com/n8w69cvH/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Create engaging posts for all your social media platforms quickly.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Post templates", "Hashtag suggestions", "Analytics tracking", "Scheduler integration"],
+    "icon": "https://i.ibb.co.com/8Dj5kF6s/social-media.png"
+  }
+]

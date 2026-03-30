@@ -25,7 +25,7 @@ const NavBar = () => {
                         <FiShoppingCart className="text-xl" />
                     </button>
                     <ul className="menu menu-horizontal text-lg"><li><a href="">Login</a></li></ul>
-                    <button className="btn bg-gradient-to-r from-blue-800 to-purple-600 rounded-full text-white">Get Started</button>
+                    <button className="btn bg-gradient-to-r from-blue-700 to-purple-600 rounded-full text-white">Get Started</button>
                 </div>
 
             </div>
