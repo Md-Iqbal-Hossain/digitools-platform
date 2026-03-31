@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import checkImg from '../assets/Check.png';
+import { toast } from 'react-toastify';
 
 const ModelCard = ({ model, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false);
     const handleBuy = () => {
         setIsBuy(true);
         setCarts([...carts, model]);
+        toast.success('Product added to cart');
     }
 
     const getTagColor = (tag) => {
