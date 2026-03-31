@@ -34,7 +34,7 @@ function App() {
       {/* Cart */}
       <div className={activeTab === 'cart' ? 'block' : 'hidden'}>
         <div className="max-w-6xl mx-auto w-full pb-20">
-          <Cart carts = {carts}/>
+          <Cart carts = {carts} setCarts={setCarts}/>
         </div>
         
       </div>
