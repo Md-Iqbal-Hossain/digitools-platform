@@ -8,7 +8,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
         setIsBuy(true);
 
         const isFound = carts.find(item => item.id === model.id);
-        if(isFound){
+        if (isFound) {
             toast.error('Product already in cart');
             return;
         }
@@ -23,6 +23,8 @@ const ModelCard = ({ model, carts, setCarts }) => {
         else if (tag === 'new') return 'bg-green-200 text-green-700';
         else return 'bg-gray-200 text-black';
     };
+
+    const isAdded = carts.some(item => item.id === model.id);
 
     return (
         <div className='shadow-lg rounded-lg overflow-hidden border border-gray-200 p-6'>
@@ -51,11 +53,21 @@ const ModelCard = ({ model, carts, setCarts }) => {
                     ))}
                 </ul>
 
+
                 <button
                     onClick={handleBuy}
-                    className="btn bg-gradient-to-r from-blue-700 to-purple-600 rounded-full text-white w-full mt-5"
+                    disabled={isAdded}
+                    className={`btn rounded-full w-full mt-5 text-white 
+    ${isAdded ? 'bg-green-500 cursor-not-allowed' : 'bg-gradient-to-r from-blue-700 to-purple-600'}`}
                 >
-                    {isBuy ? 'Added to Cart' : 'Buy Now'}
+                    {isAdded ? (
+                        <span className="flex items-center justify-center gap-2">
+                            <img src={checkImg} alt="" className="w-4 h-4 brightness-0 invert" />
+                            Added to Cart
+                        </span>
+                    ) : (
+                        'Buy Now'
+                    )}
                 </button>
             </div>
         </div>

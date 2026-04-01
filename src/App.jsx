@@ -6,6 +6,9 @@ import NavBar from './component/NavBar'
 import Cart from './component/Cart';
 import Stats from './component/Stats';
 import Steps from './component/Steps';
+import Pricing from './component/Pricing';
+import Footer from './component/Footer';
+import Workflow from './component/Workflow';
 
 const getModels = async () => {
   const res = await fetch('/models.json');
@@ -22,7 +25,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar carts={carts}/>
       <Banner />
       <Stats />
 
@@ -43,6 +46,12 @@ function App() {
       </div>
 
       <Steps/>
+
+      <Pricing />
+
+      <Workflow />
+
+      <Footer />
     </>
   )
 }
