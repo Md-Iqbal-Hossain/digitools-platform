@@ -22,7 +22,7 @@ const NavBar = () => {
 
                 <div className="navbar-end gap-0">
                     <button className="p-2 rounded-full hover:bg-gray-100">
-                        <FiShoppingCart className="text-xl" />
+                        <FiShoppingCart className="text-sm sm:text-base md:text-xl" />
                     </button>
                     <ul className="menu menu-horizontal text-lg"><li><a href="">Login</a></li></ul>
                     <button className="btn bg-gradient-to-r from-blue-700 to-purple-600 rounded-full text-white">Get Started</button>

@@ -4,6 +4,7 @@ import Banner from './component/Banner'
 import Models from './component/Models';
 import NavBar from './component/NavBar'
 import Cart from './component/Cart';
+import Stats from './component/Stats';
 
 const getModels = async () => {
   const res = await fetch('/models.json');
@@ -22,6 +23,7 @@ function App() {
     <>
       <NavBar />
       <Banner />
+      <Stats />
 
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
         <Models
