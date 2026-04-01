@@ -5,6 +5,7 @@ import Models from './component/Models';
 import NavBar from './component/NavBar'
 import Cart from './component/Cart';
 import Stats from './component/Stats';
+import Steps from './component/Steps';
 
 const getModels = async () => {
   const res = await fetch('/models.json');
@@ -40,6 +41,8 @@ function App() {
         </div>
         
       </div>
+
+      <Steps/>
     </>
   )
 }
